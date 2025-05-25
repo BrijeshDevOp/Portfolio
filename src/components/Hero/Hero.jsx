@@ -1,16 +1,16 @@
-    import React from 'react'
-    import './Hero.css'
-    // import profile_img from '../../assets/profile_img.svg'
-    import AnchorLink from 'react-anchor-link-smooth-scroll'
-    import profile_img from '../../assets/PROFILE.jpg'
-    import linked_in from '../../assets/linkedin.svg'
-    import github from '../../assets/github.svg'
-    import leet_code from '../../assets/leetcode.svg'
-    import instagram from '../../assets/instagram.svg'
-    import resume_download from '../../assets/download.svg'
+import React from 'react'
+import './Hero.css'
+// import profile_img from '../../assets/profile_img.svg'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+import profile_img from '../../assets/PROFILE.jpg'
+import linked_in from '../../assets/linkedin.svg'
+import github from '../../assets/github.svg'
+import leet_code from '../../assets/leetcode.svg'
+import instagram from '../../assets/instagram.svg'
+import resume_download from '../../assets/download.svg'
 
 
-    const Hero = () => {
+const Hero = () => {
     return (
         <div id='home' className='hero'>
             <div className="img_frame"><img src={profile_img} alt="" srcset="" /></div>
@@ -21,7 +21,16 @@
                 <img src={github} alt="Github" />
                 <img src={leet_code} alt="Leet code" />
                 <img src={instagram} alt="Instagram" />
-                <div className="hero-resume">Resume <img src={resume_download} alt="" srcset="" /></div>
+                <a
+                    href="https://drive.google.com/open?id=1-YolaWhEUKMRSWHiXx9Hy0Vb1me8B0_6&usp=drive_fs"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ textDecoration: 'none', color: 'inherit' }}
+                >
+                    <div className="hero-resume">
+                        Resume <img src={resume_download} alt="Download Resume" />
+                    </div>
+                </a>
             </div>
             {/* <div className="hero-action">
                 <div className="hero-connect" onClick={()=>setMenu("contact")}><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></div>
@@ -29,6 +38,6 @@
             </div> */}
         </div>
     )
-    }
+}
 
-    export default Hero
+export default Hero
