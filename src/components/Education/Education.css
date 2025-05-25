@@ -1,0 +1,112 @@
+.education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 80px 220px;
+    /* border: 2px solid rgb(9, 9, 9); */
+}
+
+.education-title {
+    position: relative;
+}
+
+.education-title h1 {
+    padding: 0px 30px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.education-title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.education-section {
+    width: 100%;
+    /* border: 2px solid rgb(9, 9, 9); */
+}
+
+.vertical-timeline-element-content {
+    position: relative;
+    padding: 2em 3em !important;
+    box-shadow:
+        0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+        0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+
+    /* Internal top border as a linear gradient */
+    background:linear-gradient(to right, #ff6a00, #ffb700, #ffe600) top / 100% 4px no-repeat !important;
+}
+
+
+
+.vertical-timeline-element-date {
+    background: linear-gradient(to right, #ff6a00, #ffb700, #ffe600); /* Fire gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+.vertical-timeline::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 6px !important;
+    height: 100% !important;
+    background: linear-gradient(to bottom, #ff6a00, #ffb700, #ffe600) !important; /* fire-like gradient */
+    border-radius: 999px !important; 
+}
+
+#description {
+    margin: 1.5em 0 2em 0;
+}
+
+.button {
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    color: white;
+}
+
+.degreeButton {
+    background-color: #06d6a0;
+}
+
+.degreeButton:hover {
+    background-color: #74f5d2;
+}
+
+.schoolButton {
+    background-color: #f1bc28;
+}
+
+.schoolButton:hover {
+    background-color: #fed67e;
+}
+
+/* Apply only on wide screens */
+@media only screen and (min-width: 1700px) {
+    .vertical-timeline-element-date {
+        position: absolute !important;
+        left: 70px !important; /* adjust as needed */
+        top: 20px !important;
+        color: #ec9d0c !important;
+        white-space: nowrap;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+    .vertical-timeline-element-icon {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .vertical-timeline-element {
+        position: relative;
+    }
+}
