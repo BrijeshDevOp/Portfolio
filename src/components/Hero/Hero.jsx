@@ -32,10 +32,6 @@ const Hero = () => {
                     </div>
                 </a>
             </div>
-            {/* <div className="hero-action">
-                <div className="hero-connect" onClick={()=>setMenu("contact")}><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></div>
-                <div className="hero-resume">My Resume</div>
-            </div> */}
         </div>
     )
 }
