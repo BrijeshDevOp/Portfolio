@@ -1,5 +1,5 @@
 import React from 'react';
-import './About.css'; // Make sure to create this CSS file
+import './About.css'; 
 import theme_pattern from '../../assets/theme_pattern.svg'
 import java_icon from '../../assets/tech_logo/java.png'
 import c_icon from '../../assets/tech_logo/c.png'
