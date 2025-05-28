@@ -1,7 +1,7 @@
 import React from 'react'
 import './Hero.css'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import profile_img from '../../assets/PROFILE.jpg'
+import profile_img from '../../assets/profile_image.png'
 import linked_in from '../../assets/linkedin.svg'
 import github from '../../assets/github.svg'
 import leet_code from '../../assets/leetcode.svg'
