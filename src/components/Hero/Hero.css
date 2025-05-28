@@ -2,17 +2,14 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin:50px;
+    margin:30px;
     /* gap:35px; */
-    gap: 30px;
+    gap: 20px;
     /* border: 2px solid white; */
 }
 
-
 .img_frame{
-    width: 200px;
-    border-radius: 50%;
-    overflow: hidden;
+    width: 300px;
     display: inline-block;
 }
 
