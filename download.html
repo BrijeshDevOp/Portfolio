@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Viewing Resume</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            height: 100%;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- PDF Viewer -->
+    <iframe src="/Portfolio/assets/resume.pdf"></iframe>
+
+    <script>
+        // Auto download the PDF
+        const link = document.createElement('a');
+        link.href = '/Portfolio/assets/resume.pdf';
+        link.download = 'resume.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    </script>
+</body>
+
+</html>
