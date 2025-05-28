@@ -20,7 +20,6 @@ import figma_icon from '../../assets/tech_logo/figma.png'
 import postman_icon from '../../assets/tech_logo/postman.png'
 import vercel_icon from '../../assets/tech_logo/vercel.png'
 
-
 const Skills = () => {
     return (
         <div className="skills" id='skills'>

@@ -54,6 +54,35 @@
     transition: 0.3s;
 }
 
+.icons-tool-tip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.icons-tool-tip::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 120%; /* above the icon */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    font-size: 12px;
+    padding: 6px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    z-index: 1;
+}
+
+.icons-tool-tip:hover::after,
+.icons-tool-tip:focus::after {
+    opacity: 1;
+}
+
 .hero-action{
     display: flex;
     align-items: center;
