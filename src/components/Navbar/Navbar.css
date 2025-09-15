@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     margin: 20px 120px;
-    padding: 0 20px;
+    padding: 0 30px;
     /* border: 1px solid white; */
 }
 
@@ -11,9 +11,10 @@
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 60px;
+    gap: 70px;
     /* font-size: 20px; */
     font-size: 16px;
+    margin: 0 40px;
 }
 
 .nav-connect{
@@ -65,12 +66,13 @@
 @media (min-width: 1400px) {
     .navbar {
         margin: 20px 200px;
-        padding: 0 40px;
+        padding: 0 50px;
     }
 
     .nav-menu {
-        gap: 80px;
+        gap: 90px;
         font-size: 17px;
+        margin: 0 50px;
     }
 
     .nav-connect {
@@ -83,12 +85,13 @@
 @media (max-width: 1200px) {
     .navbar {
         margin: 20px 60px;
-        padding: 0 15px;
+        padding: 0 25px;
     }
 
     .nav-menu {
-        gap: 45px;
+        gap: 55px;
         font-size: 15px;
+        margin: 0 30px;
     }
 
     .nav-connect {
@@ -101,12 +104,13 @@
 @media (max-width: 1024px) {
     .navbar {
         margin: 20px 40px;
-        padding: 0 10px;
+        padding: 0 20px;
     }
 
     .nav-menu {
-        gap: 35px;
+        gap: 45px;
         font-size: 14px;
+        margin: 0 25px;
     }
 
     .nav-connect {
