@@ -1,126 +1,126 @@
-    .about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    margin: 80px 220px;
-    /* border: 2px solid rgb(9, 9, 9); */
-    }
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 80px 220px;
+  /* border: 2px solid rgb(9, 9, 9); */
+}
 
-    .about-title {
-    position: relative;
-    }
+.about-title {
+  position: relative;
+}
 
-    .about-title h1 {
-    padding: 0px 30px;
-    font-size: 50px;
-    font-weight: 500;
-    }
+.about-title h1 {
+  padding: 0px 30px;
+  font-size: 50px;
+  font-weight: 500;
+}
 
-    .about-title img {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
-    }
+.about-title img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
 
-    .about-section {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    padding: 40px 20px;
-    max-width: 1200px;
-    margin: auto;
-    gap: 30px;
-    flex-wrap: wrap;
-    }
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+  gap: 30px;
+  flex-wrap: wrap;
+}
 
-    .about-left,
-    .about-right {
-    flex: 1;
-    min-width: 300px;
-    }
+.about-left,
+.about-right {
+  flex: 1;
+  min-width: 300px;
+}
 
-    .about-left {
-    font-size: 18px;
-    line-height: 1.6;
-    color: #333;
-    padding-right: 20px;
-    }
+.about-left {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  padding-right: 20px;
+}
 
-    .about-left p{
-        font-size: 20px;
-        margin: 20px 0px;
-    }
+.about-left p {
+  font-size: 20px;
+  margin: 20px 0px;
+}
 
-    .about-divider {
-    width: 2px;
-    background-color: #ccc;
-    }
+.about-divider {
+  width: 2px;
+  background-color: #ccc;
+}
 
-    /* Fix class name from .about-skill-tile to .about-skills-tile */
-    .about-skills-tile {
-    display: flex;
-    align-items: center;
-    gap: 30px; /* space between icons and text */
-    margin: 15px 0px;
-    flex-wrap: wrap; /* allow wrapping on smaller screens */
-    }
+/* Fix class name from .about-skill-tile to .about-skills-tile */
+.about-skills-tile {
+  display: flex;
+  align-items: center;
+  gap: 30px; /* space between icons and text */
+  margin: 15px 0px;
+  flex-wrap: wrap; /* allow wrapping on smaller screens */
+}
 
-    .about-skills-tile .title1,
-    .about-skills-tile .title2,
-    .about-skills-tile .title3,
-    .about-skills-tile .title4,
-    .about-skills-tile .title5 {
-    min-width: 140px;
-    font-weight: 600;
-    font-size: 16px;
-    color: #222;
-    }
+.about-skills-tile .title1,
+.about-skills-tile .title2,
+.about-skills-tile .title3,
+.about-skills-tile .title4,
+.about-skills-tile .title5 {
+  min-width: 140px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #222;
+}
 
-    .about-skills-tile .icons {
-    justify-self: flex-end;
-    }
+.about-skills-tile .icons {
+  justify-self: flex-end;
+}
 
-    .tool-tip {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    }
+.tool-tip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
 
-    .tool-tip::after {
-    content: attr(data-tooltip);
-    position: absolute;
-    bottom: 120%; /* above the icon */
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #333;
-    color: #fff;
-    font-size: 12px;
-    padding: 6px 8px;
-    border-radius: 4px;
-    white-space: nowrap;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.2s ease;
-    z-index: 1;
-    }
+.tool-tip::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 120%; /* above the icon */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  font-size: 12px;
+  padding: 6px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  z-index: 1;
+}
 
-    .tool-tip:hover::after,
-    .tool-tip:focus::after {
-    opacity: 1;
-    }
+.tool-tip:hover::after,
+.tool-tip:focus::after {
+  opacity: 1;
+}
 
-    /* Smaller icons */
-    .about-skills-tile .icons img {
-    width: 30px; /* smaller width */
-    height: 30px; /* smaller height */
-    object-fit: contain;
-    transition: transform 0.3s ease;
-    cursor: default;
-    }
+/* Smaller icons */
+.about-skills-tile .icons img {
+  width: 30px; /* smaller width */
+  height: 30px; /* smaller height */
+  object-fit: contain;
+  transition: transform 0.3s ease;
+  cursor: default;
+}
 
-    .about-skills-tile .icons img:hover {
-    transform: scale(1.3);
-    }
+.about-skills-tile .icons img:hover {
+  transform: scale(1.3);
+}

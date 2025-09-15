@@ -1,68 +1,67 @@
-.skills{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    margin: 80px 220px;
-    /* border: 2px solid rgb(9, 9, 9); */
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 80px 220px;
+  /* border: 2px solid rgb(9, 9, 9); */
 }
 
-.skills-title{
-    position: relative;
+.skills-title {
+  position: relative;
 }
 
-.skills-title h1{
-    padding: 0px 30px;
-    font-size: 50px;
-    font-weight: 500;
+.skills-title h1 {
+  padding: 0px 30px;
+  font-size: 50px;
+  font-weight: 500;
 }
 
-
-.skills-title img{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
+.skills-title img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
 }
 
-.skills-section{
-    width: 100%;
+.skills-section {
+  width: 100%;
 }
 
 .skills-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
-.skills-container div{
-    display: flex;
-    align-items: center;
-    padding: 10px 40px;
-    border-radius: 5px;
-    /* border: 2px solid rgb(4, 4, 4); */
-    transition: 0.4s;
-    cursor: pointer;
-    justify-content: flex-start;
+.skills-container div {
+  display: flex;
+  align-items: center;
+  padding: 10px 40px;
+  border-radius: 5px;
+  /* border: 2px solid rgb(4, 4, 4); */
+  transition: 0.4s;
+  cursor: pointer;
+  justify-content: flex-start;
 }
 
-.skills-container .left{
-    justify-content: flex-end;
+.skills-container .left {
+  justify-content: flex-end;
 }
 .skills-container .icons {
-    padding: 10px 10px;
-    background-color: azure;
+  padding: 10px 10px;
+  background-color: azure;
 }
 
-.skills-container .title{
-    border: none;
-    font-size: 22px;
-    font-weight: 600;
+.skills-container .title {
+  border: none;
+  font-size: 22px;
+  font-weight: 600;
 }
-.skills-container .icons img{
-    width: 35px;
-    height: 35px;
-    object-fit: contain;
-    margin: 0px 30px;
+.skills-container .icons img {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+  margin: 0px 30px;
 }

@@ -42,7 +42,7 @@ const Hero = () => {
                     </span>
                 </a>
                 <div className="hero-resume" onClick={handleClick}>
-                    Resume <img src={resume_download} alt="Download Resume" />                    
+                    Resume <img src={resume_download} alt="Download Resume" />
                 </div>
             </div>
         </div>
