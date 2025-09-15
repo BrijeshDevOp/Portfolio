@@ -2,7 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 170px;
+    margin: 20px 120px;
+    padding: 0 20px;
     /* border: 1px solid white; */
 }
 
@@ -10,20 +11,21 @@
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 60px;
+    gap: 50px;
     /* font-size: 20px; */
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .nav-connect{
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 12px 24px;
+    border-radius: 25px;
     background: linear-gradient(84deg, #FFA000 -5.09%, #FFCA28 50%, #FFD740 106.28%);;
     /* font-size: 22px; */
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 600;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.3s;
+    white-space: nowrap;
 }
 
 .nav-connect p{
@@ -58,47 +60,161 @@
 .nav-mob-open{
     display: none;
 }
-@media(max-width:786px){
-    .navbar{
-        margin: 20px 50px;
+
+/* Large desktop styles */
+@media (min-width: 1400px) {
+    .navbar {
+        margin: 20px 200px;
+        padding: 0 40px;
     }
 
-    .nav-connect{
+    .nav-menu {
+        gap: 65px;
+        font-size: 17px;
+    }
+
+    .nav-connect {
+        padding: 14px 28px;
+        font-size: 17px;
+    }
+}
+
+/* Medium desktop styles */
+@media (max-width: 1200px) {
+    .navbar {
+        margin: 20px 60px;
+        padding: 0 15px;
+    }
+
+    .nav-menu {
+        gap: 45px;
+        font-size: 15px;
+    }
+
+    .nav-connect {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+}
+
+/* Tablet styles */
+@media (max-width: 1024px) {
+    .navbar {
+        margin: 20px 40px;
+        padding: 0 10px;
+    }
+
+    .nav-menu {
+        gap: 35px;
+        font-size: 14px;
+    }
+
+    .nav-connect {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .navbar {
+        margin: 15px 25px;
+        padding: 0 5px;
+    }
+
+    .nav-connect {
         display: none;
     }
 
-    .nav-mob-open{
+    .nav-mob-open {
         display: block;
         position: fixed;
-        right: 30px;
+        right: 25px;
+        z-index: 3;
+        width: 28px;
+        height: 28px;
+        cursor: pointer;
     }
 
-    .nav-mob-close{
+    .nav-mob-close {
         display: block;
         position: relative;
-        top: 30px;
-        left: 290px;
-        width: 30px;
+        top: 25px;
+        left: 280px;
+        width: 28px;
+        cursor: pointer;
     }
 
-    .nav-menu{
+    .nav-menu {
         position: fixed;
         flex-direction: column;
         align-items: start;
         top: 0;
-        gap: 30px;
-        background-color: #1F0016;
-        width: 350px;
+        gap: 35px;
+        background-color: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(10px);
+        border-left: 1px solid rgba(255, 160, 0, 0.2);
+        box-shadow: -5px 0 20px rgba(0, 0, 0, 0.1);
+        width: 320px;
         height: 100%;
         z-index: 2;
-        transition: right 0.5s;
-        right: -350px;
+        transition: right 0.5s ease;
+        right: -320px;
+        padding-top: 80px;
     }
 
-    .nav-menu li{
-        font-size: 30px;
-        padding-left:100px ;
+    .nav-menu li {
+        font-size: 20px;
+        padding-left: 60px;
         flex-direction: row;
-        gap: 20px;
+        gap: 15px;
+        width: 100%;
+        padding: 12px 60px;
+        transition: background-color 0.3s ease;
+    }
+
+    .nav-menu li:hover {
+        background-color: rgba(255, 160, 0, 0.1);
+    }
+
+    .nav-menu li .anchor-link {
+        color: #333;
+        font-weight: 500;
+    }
+
+    .nav-menu li .anchor-link:hover {
+        color: #FFA000;
+    }
+}
+
+/* Small mobile styles */
+@media (max-width: 480px) {
+    .navbar {
+        margin: 12px 15px;
+        padding: 0 5px;
+    }
+
+    .nav-mob-open {
+        right: 20px;
+        width: 26px;
+        height: 26px;
+    }
+
+    .nav-menu {
+        width: 280px;
+        right: -280px;
+        gap: 30px;
+        padding-top: 70px;
+    }
+
+    .nav-mob-close {
+        left: 230px;
+        top: 20px;
+        width: 26px;
+    }
+
+    .nav-menu li {
+        font-size: 18px;
+        padding: 10px 40px;
     }
 }

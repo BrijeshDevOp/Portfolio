@@ -8,31 +8,30 @@ My personal portfolio built with **React** and **Vite**. It showcases projects, 
 
 ## Features
 
-- Responsive, mobile-friendly UI
-- Project showcases with images and descriptions
-- Downloadable resume
-- Contact section
-- Built with React + Vite for fast performance
+-   Responsive, mobile-friendly UI
+-   Project showcases with images and descriptions
+-   Downloadable resume
+-   Contact section
+-   Built with React + Vite for fast performance
 
 ## Tech Stack
 
-- React 19
-- Vite 6
-- JavaScript (ESNext)
-- CSS (custom styling)
-- GitHub Pages (hosting)
+-   React 19
+-   Vite 6
+-   JavaScript (ESNext)
+-   CSS (custom styling)
+-   GitHub Pages (hosting)
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js 18+ and npm
+-   Node.js 18+ and npm
 
 Check your versions:
 
 ```bash
-node -v
-npm -v
+node -vnpm -v
 ```
 
 ### Installation
@@ -40,9 +39,7 @@ npm -v
 Clone and install dependencies:
 
 ```bash
-git clone https://github.com/BrijeshDevOp/Portfolio.git
-cd Portfolio
-npm install
+git clone https://github.com/BrijeshDevOp/Portfolio.gitcd Portfolionpm install
 ```
 
 ### Local Development
@@ -53,24 +50,14 @@ Start the dev server with hot reload:
 npm run dev
 ```
 
-Then open the URL printed in the terminal (usually http://localhost:5173).
+Then open the URL printed in the terminal (usually [http://localhost:5173](http://localhost:5173)).
 
 ## Available Scripts
 
 Run the following from the project root:
 
 ```bash
-# Start local dev server
-npm run dev
-
-# Build for production (outputs to dist/)
-npm run build
-
-# Preview the production build locally
-npm run preview
-
-# Lint the project
-npm run lint
+# Start local dev servernpm run dev# Build for production (outputs to dist/)npm run build# Preview the production build locallynpm run preview# Lint the projectnpm run lint
 ```
 
 ## Build
@@ -89,33 +76,23 @@ This site can be deployed as a static site on Render from a private GitHub repos
 
 Steps:
 
-1) Push your code to GitHub (private repo is fine).
-2) On Render, click "New" → "Static Site" and connect your GitHub account.
-3) Select this repository.
-4) Configure:
-   - Build Command: `npm ci && npm run build` (or `npm install && npm run build`)
-   - Publish Directory: `dist`
-5) Click Deploy. Render will build and host your site.
+1.  Push your code to GitHub (private repo is fine).
+2.  On Render, click "New" → "Static Site" and connect your GitHub account.
+3.  Select this repository.
+4.  Configure:
+    -   Build Command: `npm ci && npm run build` (or `npm install && npm run build`)
+    -   Publish Directory: `dist`
+5.  Click Deploy. Render will build and host your site.
 
 Notes:
-- You do not need GitHub Pages. Render will serve from the built `dist/` output.
-- When you push changes to your default branch, Render can auto-deploy.
+
+-   You do not need GitHub Pages. Render will serve from the built `dist/` output.
+-   When you push changes to your default branch, Render can auto-deploy.
 
 ## Project Structure
 
 ```
-.
-├── public/
-│   └── assets/
-├── src/
-│   ├── components/
-│   ├── assets/
-│   ├── App.jsx
-│   └── index.css
-├── index.html
-├── package.json
-├── vite.config.js
-└── README.md
+.├── public/│   └── assets/├── src/│   ├── components/│   ├── assets/│   ├── App.jsx│   └── index.css├── index.html├── package.json├── vite.config.js└── README.md
 ```
 
 ## Contributing
@@ -128,5 +105,5 @@ All rights reserved. The content of this repository (including text, images, gra
 
 ## Contact
 
-- GitHub: https://github.com/BrijeshDevOp
-- Live Site: https://BrijeshDevOp.github.io/Portfolio
+-   GitHub: [https://github.com/BrijeshDevOp](https://github.com/BrijeshDevOp)
+-   Live Site: [https://BrijeshDevOp.github.io/Portfolio](https://BrijeshDevOp.github.io/Portfolio)

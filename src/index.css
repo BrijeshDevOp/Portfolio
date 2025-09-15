@@ -1,13 +1,41 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-    height: 100vh;
+    min-height: 100vh;
     /* background: #161513; */
     /* color: white; */
     color: black;
     font-family: 'outfit';
+    overflow-x: hidden;
+}
+
+/* Global responsive container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Common responsive breakpoints */
+@media (max-width: 1024px) {
+    .container {
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
 }
 

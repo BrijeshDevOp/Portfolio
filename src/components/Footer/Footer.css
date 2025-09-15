@@ -72,18 +72,117 @@
     transition: 0.3s;
 }
 
-@media(max-width:768px){
-    .footer{
-        margin: 50px 30px;
+/* Tablet styles */
+@media (max-width: 1024px) {
+    .footer {
+        margin: 60px 80px;
+        gap: 25px;
     }
 
-    .footer-top{
+    .footer-top-right {
+        gap: 25px;
+    }
+
+    .footer-email-input {
+        padding-right: 60px;
+    }
+
+    .footer-email-input input {
+        font-size: 16px;
+    }
+
+    .footer-subscribe {
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .footer {
+        margin: 40px 30px;
+        gap: 30px;
+    }
+
+    .footer-top {
         flex-direction: column;
-        gap: 50px;
+        gap: 40px;
     }
 
-    .footer-bottom{
-        display: flex;
+    .footer-top-left p {
+        font-size: 15px;
+        max-width: 100%;
+    }
+
+    .footer-top-right {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .footer-email-input {
+        width: 100%;
+        padding-right: 15px;
+    }
+
+    .footer-email-input input {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .footer-subscribe {
+        align-self: stretch;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .footer-bottom {
         flex-direction: column-reverse;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .footer-bottom-right {
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 0;
+    }
+}
+
+/* Small mobile styles */
+@media (max-width: 480px) {
+    .footer {
+        margin: 30px 20px;
+        gap: 25px;
+    }
+
+    .footer-top {
+        gap: 30px;
+    }
+
+    .footer-top-left p {
+        font-size: 14px;
+    }
+
+    .footer-email-input {
+        padding: 10px 12px;
+        gap: 15px;
+    }
+
+    .footer-email-input input {
+        font-size: 15px;
+    }
+
+    .footer-subscribe {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+
+    .footer-bottom {
+        font-size: 13px;
+    }
+
+    .footer-bottom-right {
+        gap: 20px;
     }
 }

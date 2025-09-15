@@ -1,0 +1,16 @@
+/* Resume Page Styles */
+.resume-page {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.resume-page iframe {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+

@@ -12,7 +12,7 @@ import resume_download from '../../assets/download.svg'
 const Hero = () => {
 
     const handleClick = () => {
-        window.open('Portfolio/download.html', '_blank');
+        window.open('/resume', '_blank');
     };
 
     return (
