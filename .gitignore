@@ -28,3 +28,19 @@ dist-ssr/
 *.njsproj
 *.sln
 *.sw?
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Tool caches and reports
+.eslintcache
+coverage/
+.cache/
+
+# Windows artifacts
+Thumbs.db
+
+# npm pack artifacts
+*.tgz
