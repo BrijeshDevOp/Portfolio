@@ -2,8 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 120px;
+    margin: 20px auto;
+    max-width: 1200px;
     padding: 0 30px;
+    width: 100%;
+    box-sizing: border-box;
     /* border: 1px solid white; */
 }
 
@@ -65,7 +68,8 @@
 /* Large desktop styles */
 @media (min-width: 1400px) {
     .navbar {
-        margin: 20px 200px;
+        margin: 20px auto;
+        max-width: 1400px;
         padding: 0 50px;
     }
 
@@ -84,8 +88,8 @@
 /* Medium desktop styles */
 @media (max-width: 1200px) {
     .navbar {
-        margin: 20px 60px;
-        padding: 0 25px;
+        margin: 20px auto;
+        padding: 0 60px;
     }
 
     .nav-menu {
@@ -103,8 +107,8 @@
 /* Tablet styles */
 @media (max-width: 1024px) {
     .navbar {
-        margin: 20px 40px;
-        padding: 0 20px;
+        margin: 20px auto;
+        padding: 0 40px;
     }
 
     .nav-menu {
@@ -122,8 +126,8 @@
 /* Mobile styles */
 @media (max-width: 768px) {
     .navbar {
-        margin: 15px 25px;
-        padding: 0 5px;
+        margin: 15px auto;
+        padding: 0 25px;
     }
 
     .nav-connect {
@@ -157,8 +161,6 @@
         gap: 35px;
         background-color: rgba(255, 255, 255, 0.95);
         backdrop-filter: blur(10px);
-        border-left: 1px solid rgba(255, 160, 0, 0.2);
-        box-shadow: -5px 0 20px rgba(0, 0, 0, 0.1);
         width: 320px;
         height: 100%;
         z-index: 2;
@@ -194,8 +196,8 @@
 /* Small mobile styles */
 @media (max-width: 480px) {
     .navbar {
-        margin: 12px 15px;
-        padding: 0 5px;
+        margin: 12px auto;
+        padding: 0 20px;
     }
 
     .nav-mob-open {
