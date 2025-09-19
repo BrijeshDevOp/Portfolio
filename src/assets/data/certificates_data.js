@@ -21,27 +21,27 @@ const Certificates_Data = [
         c_link:"https://drive.google.com/open?id=1-F9nsS31MDxA_AbaP-oXtuQgs3-QT9uI&usp=drive_fs"
 
     },
-    {
-        c_no:"04",
-        c_name:"App design",
-        c_credits:"Meta",
-        c_desc:"Gained hands-on experience with JSX, components, props, and state.Built interactive UIs using modern React principles.",
-        c_link:"/"
-    },
-    {
-        c_no:"05",
-        c_name:"Digital marketing",
-        c_credits:"Meta",
-        c_desc:"Gained hands-on experience with JSX, components, props, and state.Built interactive UIs using modern React principles.",
-        c_link:"/"
-    },
-    {
-        c_no:"06",
-        c_name:"Content writing",
-        c_credits:"Meta",
-        c_desc:"Gained hands-on experience with JSX, components, props, and state.Built interactive UIs using modern React principles.",
-        c_link:"/"
-    },
+    // {
+    //     c_no:"04",
+    //     c_name:"App design",
+    //     c_credits:"Meta",
+    //     c_desc:"Gained hands-on experience with JSX, components, props, and state.Built interactive UIs using modern React principles.",
+    //     c_link:"/"
+    // },
+    // {
+    //     c_no:"05",
+    //     c_name:"Digital marketing",
+    //     c_credits:"Meta",
+    //     c_desc:"Gained hands-on experience with JSX, components, props, and state.Built interactive UIs using modern React principles.",
+    //     c_link:"/"
+    // },
+    // {
+    //     c_no:"06",
+    //     c_name:"Content writing",
+    //     c_credits:"Meta",
+    //     c_desc:"Gained hands-on experience with JSX, components, props, and state.Built interactive UIs using modern React principles.",
+    //     c_link:"/"
+    // },
 ]
 
 export default Certificates_Data;

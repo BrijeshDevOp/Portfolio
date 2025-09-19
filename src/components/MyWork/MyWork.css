@@ -33,8 +33,10 @@
 
 .my-work-container img{
     box-sizing: border-box;
-    width: 356.15px;
-    height: 238px;
+    max-width: 450px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
     transition: 0.3s;
     cursor: pointer;
 }
