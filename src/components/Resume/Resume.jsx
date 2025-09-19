@@ -9,7 +9,7 @@ const Resume = () => {
         // Auto-download the resume when component mounts
         const downloadResume = () => {
             const link = document.createElement('a');
-            link.href = './assets/resume.pdf';
+            link.href = '/assets/resume.pdf';
             link.download = 'Brijesh_Resume.pdf';
             document.body.appendChild(link);
             link.click();
@@ -29,13 +29,13 @@ const Resume = () => {
     return (
         <div className="resume-page">
             <iframe 
-                src="./assets/resume.pdf" 
+                src="/assets/resume.pdf" 
                 title="Resume PDF"
                 width="100%" 
                 height="100%"
             >
                 <p>Your browser does not support PDFs. 
-                   <a href="./assets/resume.pdf" download="Brijesh_Resume.pdf">
+                   <a href="/assets/resume.pdf" download="Brijesh_Resume.pdf">
                        Download the PDF
                    </a>
                 </p>
