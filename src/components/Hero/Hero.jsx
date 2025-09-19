@@ -12,7 +12,13 @@ import resume_download from '../../assets/download.svg'
 const Hero = () => {
 
     const handleClick = () => {
-        window.open('/resume', '_blank');
+        const link = document.createElement('a');
+        link.href = '/resume.pdf';
+        link.download = 'Brijesh_Resume.pdf';
+        link.target = '_blank';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
     };
 
     return (
