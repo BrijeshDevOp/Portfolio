@@ -18,7 +18,7 @@ import postgrsql_icon from '../../assets/tech_logo/postgre.png'
 import github_icon from '../../assets/tech_logo/github.png'
 import figma_icon from '../../assets/tech_logo/figma.png'
 import postman_icon from '../../assets/tech_logo/postman.png'
-import vercel_icon from '../../assets/tech_logo/vercel.png'
+import render_icon from '../../assets/tech_logo/render.png'
 
 const About = () => {
     return (
@@ -76,7 +76,7 @@ const About = () => {
                             <span className="icons tool-tip" data-tooltip="Github"><img src={github_icon} alt="" srcset="" /></span>
                             <span className="icons tool-tip" data-tooltip="Figma"><img src={figma_icon} alt="" srcset="" /></span>
                             <span className="icons tool-tip" data-tooltip="Postman"><img src={postman_icon} alt="" srcset="" /></span>
-                            <span className="icons tool-tip" data-tooltip="Vercel"><img src={vercel_icon} alt="" srcset="" /></span>
+                            <span className="icons tool-tip" data-tooltip="Render"><img src={render_icon} alt="" srcset="" /></span>
                         </div>
                     </div>
                 </div>

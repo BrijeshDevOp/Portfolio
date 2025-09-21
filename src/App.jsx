@@ -7,7 +7,6 @@ import Certificates from './components/Certificates/Certificates'
 import MyWork from './components/MyWork/MyWork'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
-import Skills from './components/Skills/Skills'
 import Education from './components/Education/Education'
 
 const App = () => {

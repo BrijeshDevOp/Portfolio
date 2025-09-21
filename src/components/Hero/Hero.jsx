@@ -13,8 +13,8 @@ const Hero = () => {
 
     const handleClick = () => {
         const link = document.createElement('a');
-        link.href = '/assets/resume.pdf';
-        link.download = 'Brijesh_Resume.pdf';
+        link.href = '/assets/RESUME_BRIJESH.pdf';
+        link.download = 'RESUME_BRIJESH.pdf';
         link.target = '_blank';
         document.body.appendChild(link);
         link.click();
