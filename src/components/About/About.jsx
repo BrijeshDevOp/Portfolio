@@ -72,6 +72,13 @@ const About = () => {
                         </div>
                         <hr />
                         <div className="about-skills-tile">
+                            <span className="title5">Datbase</span>
+                            <span className="icons tool-tip" data-tooltip="MySQL"><img src={mysql_icon} alt="" srcset="" /></span>
+                            <span className="icons tool-tip" data-tooltip="SQLite"><img src={sqlite_icon} alt="" srcset="" /></span>
+                            <span className="icons tool-tip" data-tooltip="Postgrsql"><img src={postgrsql_icon} alt="" srcset="" /></span>
+                        </div>
+                        <hr />
+                        <div className="about-skills-tile">
                             <span className="title5">Tools</span>
                             <span className="icons tool-tip" data-tooltip="Github"><img src={github_icon} alt="" srcset="" /></span>
                             <span className="icons tool-tip" data-tooltip="Figma"><img src={figma_icon} alt="" srcset="" /></span>
