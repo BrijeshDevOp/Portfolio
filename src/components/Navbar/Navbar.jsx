@@ -1,3 +1,5 @@
+// Portfolio/src/components/Navbar/Navbar.jsx
+
 import React, { useRef, useState, useEffect } from "react";
 import "./Navbar.css";
 import logo from "../../assets/logo_new.svg";

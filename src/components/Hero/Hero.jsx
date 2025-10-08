@@ -1,3 +1,4 @@
+// Portfolio/src/components/Hero/Hero.jsx
 import React from 'react'
 import './Hero.css'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
