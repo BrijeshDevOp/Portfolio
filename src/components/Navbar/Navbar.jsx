@@ -11,7 +11,7 @@ const Navbar = () => {
     const [menu, setMenu] = useState("home");
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const menuRef = useRef();
-    const navbarRef = useRef();
+    // const navbarRef = useRef();
 
     const openMenu = () => {
         menuRef.current.style.right = "0";
