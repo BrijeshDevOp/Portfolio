@@ -4,8 +4,17 @@ import theme_pattern from '../../assets/theme_pattern.svg';
 import certificates_data from '../../assets/data/certificates_data';
 import arrow_icon from '../../assets/arrow_icon.svg';
 import certificate_icon from '../../assets/badge.png';
+import googleLogo from '../../assets/tech_logo/GOOGLE.png';
+import ibmLogo from '../../assets/tech_logo/IBM.png';
+import metaLogo from '../../assets/tech_logo/META.png';
 
 const Certificates = () => {
+    const logoMap = {
+        'Google': googleLogo,
+        'IBM': ibmLogo,
+        'Meta': metaLogo
+    };
+
     const [expandedCards, setExpandedCards] = useState({});
 
     const toggleCard = (index) => {
@@ -29,7 +38,11 @@ const Certificates = () => {
                             <h3>{certificate.c_no}</h3>
                             <h2>{certificate.c_name}</h2>
                             <div>
-                                <h4>{certificate.c_credits}</h4> 
+                                <img
+                                    src={logoMap[certificate.c_credits]}
+                                    alt={certificate.c_credits}
+                                    className="company-logo"
+                                />
                                 <img src={certificate_icon} alt="badge" />
                                 - certified
                             </div>

@@ -73,6 +73,12 @@
 .certificates-formate div img{
     height: 20px;
 }
+
+.company-logo {
+    height: 22px;
+    margin-right: 8px;
+    object-fit: contain;
+}
 .certificates-formate p {
     color: #272626;
     font-size: 20px;
