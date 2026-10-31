@@ -10,8 +10,8 @@ import js_icon from '../../assets/tech_logo/javascript.png'
 import bootstrap_icon from '../../assets/tech_logo/bootstrap.png'
 import flutter_icon from '../../assets/tech_logo/flutter.png'
 import react_icon from '../../assets/tech_logo/reactjs.png'
-import springboot_icon from '../../assets/tech_logo/springboot.png'
 import django_icon from '../../assets/tech_logo/django.png'
+import express_icon from '../../assets/tech_logo/express-js.png'
 import sqlite_icon from '../../assets/tech_logo/sqlite.png'
 import mysql_icon from '../../assets/tech_logo/mysql.png'
 import postgrsql_icon from '../../assets/tech_logo/postgre.png'
@@ -67,7 +67,7 @@ const About = () => {
                         <hr />
                         <div className="about-skills-tile">
                             <span className="title4">Back-End</span>
-                            <span className="icons tool-tip" data-tooltip="Springboot"><img src={springboot_icon} alt="" srcset="" /></span>
+                            <span className="icons tool-tip" data-tooltip="Express.js"><img src={express_icon} alt="" srcset="" /></span>
                             <span className="icons tool-tip" data-tooltip="Django"><img src={django_icon} alt="" srcset="" /></span>
                         </div>
                         <hr />
