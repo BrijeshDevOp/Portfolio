@@ -56,7 +56,6 @@ const About = () => {
                             <span className="icons tool-tip" data-tooltip="HTML"><img src={html_icon} alt="" srcset="" /></span>
                             <span className="icons tool-tip" data-tooltip="CSS"><img src={css_icon} alt="" srcset="" /></span>
                             <span className="icons tool-tip" data-tooltip="JavaScript"><img src={js_icon} alt="" srcset="" /></span>
-                            <span className="icons tool-tip" data-tooltip="Bootstrap"><img src={bootstrap_icon} alt="" srcset="" /></span>
                         </div>
                         <hr />
                         <div className="about-skills-tile">

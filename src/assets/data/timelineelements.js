@@ -5,7 +5,7 @@ let timeLineElements = [
         location:"J.N.N.C.E Shivamogga",
         description:"Graduated with Master's Degree in Computer Applications",
         // buttonText:"View College",
-        date:"September 15 2025 - ongoing",
+        date:"Feb 5 2024 - Dec 15 2025",
         icon:"degree"
     },
     {
