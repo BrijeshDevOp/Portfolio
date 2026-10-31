@@ -4,7 +4,7 @@ My personal portfolio built with **React** and **Vite**. It showcases projects, 
 
 ## Demo
 
-[https://portfolio-tiwh.onrender.com](https://BrijeshDevOp.github.io/Portfolio)
+[https://portfolio-tiwh.onrender.com](https://portfolio-tiwh.onrender.com)
 
 ## Features
 
